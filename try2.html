@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+.fondo{
+position: absolute;
+top: 5rem;
+left: 18rem;
+width: 72%;
+height: 85%;
+background-color: white;
+display: none;
+z-index: 3000;}
+.opaco{
+position: absolute;
+top: 0rem;
+left: 0rem;
+width: 100%;
+height: 100%;
+background-color: black;
+opacity: 0.5;
+display: none;
+z-index: 2000;}
+.sigue{
+position: absolute;
+top: 6rem;
+left: 62rem;
+width: 12rem;
+height: 9%;
+font-family: 'Roboto', sans-serif;
+font-size: 2rem;
+color: white;
+border-top-left-radius: 2rem;
+border-top-right-radius: 2rem;
+border-bottom-right-radius: 2rem;
+border-bottom-left-radius: 2rem;
+background: #fff;
+z-index: 4000;
+display: none;
+}
+.sigue:hover {
+letter-spacing: .1rem;
+
+}
+.primera{
+position: absolute;
+top: 6rem;
+left: 45rem;
+width: 12rem;
+height: 9%;
+background: white;
+border-top-left-radius: 2rem;
+border-top-right-radius: 2rem;
+border-bottom-right-radius: 2rem;
+border-bottom-left-radius: 2rem;
+font-size: 2rem;
+color: white;
+z-index: 4000;
+display: none;}
+.primera:hover{
+    letter-spacing: .1rem;
+}
+.a{
+position: absolute;
+top: 12rem;
+left: 45rem;
+height: 30rem;
+width: 50rem;
+font-size: 22rem;
+color: white;
+display: none;
+z-index: 4000;}
+
+.nombre{position: absolute;
+top: 3rem;
+left: 5rem;
+width: 30rem;
+height: 5rem;
+background: white;
+font-size: 22px;
+font-weight: lighter;
+color: black;
+z-index: 4000;}
+.contra{
+position: absolute;
+top: 10rem;
+left: 5rem;
+width: 30rem;
+height: 5rem;
+background: white;
+font-size: 22px;
+font-weight: lighter;
+color: black;
+z-index: 4000;}
+.botonenviar{
+position: absolute;
+top: 20rem;
+left: 5rem;
+width: 30rem;
+height: 5rem;
+background: #072E35;
+font-size: 22px;
+color: white;
+z-index: 4000;}
+.botonenviar2{position: absolute;
+top: 23rem;
+left: 5rem;
+width: 30rem;
+height: 5rem;
+background: #072E35;
+font-size: 22px;
+color: white;
+z-index: 4000;}
+.nombre2{
+position: absolute;
+top: 3rem;
+left: 5rem;
+width: 30rem;
+height: 4rem;
+background: white;
+font-size: 22px;
+font-weight: lighter;
+color: black;
+z-index: 4000;}
+.contra2{position: absolute;
+top: 8rem;
+left: 5rem;
+width: 30rem;
+height: 4rem;
+background: white;
+font-size: 22px;
+font-weight: lighter;
+color: black;
+z-index: 4000;}
+.opcion{position: absolute;
+top: 13rem;
+left: 5rem;
+width: 30rem;
+height: 4rem;
+background: white;
+font-size: 22px;
+font-weight: lighter;
+color: gray;
+z-index: 4000;}
+.correo2{position: absolute;
+top: 18rem;
+left: 5rem;
+width: 30rem;
+height: 4rem;
+background: white;
+font-size: 22px;
+font-weight: lighter;
+color: black;
+z-index: 4000;}
+.x{position: absolute;
+top: 0.8rem;
+left: 89rem;
+font-size: 3.5rem;
+font-family: 'Roboto', sans-serif;
+z-index: 4000;}
+
+.bg2{
+    position: relative;
+    width: 45%;
+    height: 100%;
+    background-image: url(1.jpg.png);
+    background-repeat: no-repeat;
+}
+.lre{
+    position: absolute;
+    top: -12rem;
+    color: black;
+    font-size: 4rem;
+}
+
+
+
+
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+
+    .header{
+        padding:1.5rem 2rem;
+
+    }
+
+    section{
+        padding:2rem;
+    }
+
+}
+
+
+
+@media (max-width:768px){
+
+    html{
+        font-size: 70%;
+    }
+    .fondo{
+position: absolute;
+top: 5rem;
+left: 3.5rem;
+width: 36rem;
+height: 85%;
+background-color: white;
+display: none;
+z-index: 3000;}
+.a{
+position: absolute;
+top: 30rem;
+left: 5rem;
+height: 40rem;
+width: 30rem;
+font-size: 22rem;
+color: white;
+display: none;
+z-index: 4000;}
+.sigue{
+position: absolute;
+top: 14rem;
+left: 6rem;
+width: 12rem;
+height: 9%;
+font-family: 'Roboto', sans-serif;
+font-size: 2rem;
+color: white;
+background: #fff;
+z-index: 4000;
+display: none;}
+.primera{
+position: absolute;
+top: 14rem;
+left: 20rem;
+width: 12rem;
+height: 9%;
+background: white;
+font-size: 2rem;
+color: white;
+z-index: 4000;
+display: none;}
+.nombre{
+position: absolute;
+top: 3rem;
+left: 2rem;
+width: 20rem;
+height: 8rem;
+background: white;
+font-size: 22px;
+font-weight: lighter;
+color: gray;
+z-index: 4000;}
+.contra{
+position: absolute;
+top: 13rem;
+left: 2rem;
+width: 20rem;
+height: 8rem;
+background: white;
+font-size: 22px;
+font-weight: lighter;
+color: gray;
+z-index: 4000;}
+.botonenviar{
+position: absolute;
+top: 28rem;
+left: 3rem;
+width: 25rem;
+height: 8rem;
+background: #072E35;
+font-size: 22px;
+color: white;
+z-index: 4000;}
+.botonenviar2{position: absolute;
+top: 30rem;
+left: 3rem;
+width: 25rem;
+height: 8rem;
+background: #072E35;
+font-size: 22px;
+color: white;
+z-index: 4000;}
+.nombre2{
+position: absolute;
+top: 3rem;
+left: 2rem;
+width: 25rem;
+height: 4rem;
+background: white;
+font-size: 22px;
+font-weight: lighter;
+color: gray;
+z-index: 4000;}
+.contra2{position: absolute;
+top: 8rem;
+left: 2rem;
+width: 25rem;
+height: 4rem;
+background: white;
+font-size: 22px;
+font-weight: lighter;
+color: gray;
+z-index: 4000;}
+.opcion{position: absolute;
+top: 13rem;
+left: 2rem;
+width: 25rem;
+height: 4rem;
+background: white;
+font-size: 22px;
+font-weight: lighter;
+color: gray;
+z-index: 4000;}
+.correo2{position: absolute;
+top: 18rem;
+left: 2rem;
+width: 25rem;
+height: 4rem;
+background: white;
+font-size: 22px;
+font-weight: lighter;
+color: gray;
+z-index: 4000;}
+.x{position: absolute;
+top: 0.8rem;
+left: 33rem;
+font-size: 3.5rem;
+font-family: 'Roboto', sans-serif;
+z-index: 4000;
+}
+.bg2{
+    position: relative;
+    width: 100%;
+    height: 45%;
+    background-image: url(2.png);
+    background-repeat: no-repeat;
+}
+
+
+
+@media (max-width:450px){
+
+    html{
+        font-size: 40%;
+    }
+.bg2{
+    position: relative;
+    width: 100%;
+    height: 45%;
+    background-image: url(2.png);
+    background-repeat: no-repeat;
+}
+
+.fondo{
+position: absolute;
+top: 5rem;
+left: 5rem;
+width: 43rem;
+height: 85%;
+background-color: white;
+display: none;
+z-index: 3000;}
+.a{
+position: absolute;
+top: 40rem;
+left: 5rem;
+height: 30rem;
+width: 30rem;
+font-size: 22rem;
+color: white;
+display: none;
+z-index: 4000;}
+.sigue{
+position: absolute;
+top: 22rem;
+left: 10rem;
+width: 12rem;
+height: 9%;
+font-family: 'Roboto', sans-serif;
+font-size: 2rem;
+color: white;
+background: #fff;
+border-top-left-radius: 2rem;
+border-top-right-radius: 2rem;
+border-bottom-right-radius: 2rem;
+border-bottom-left-radius: 2rem;
+z-index: 4000;
+display: none;}
+.primera{
+position: absolute;
+top: 22rem;
+left: 25rem;
+width: 12rem;
+height: 9%;
+background: white;
+font-size: 2rem;
+color: white;
+border-top-left-radius: 2rem;
+border-top-right-radius: 2rem;
+border-bottom-right-radius: 2rem;
+border-bottom-left-radius: 2rem;
+z-index: 4000;
+display: none;}
+.lre{
+    position: absolute;
+    top: -8.3rem;
+    color: black;
+    font-size: 5rem;
+}
+.nombre{
+position: absolute;
+top: 3rem;
+left: 2rem;
+width: 20rem;
+height: 8rem;
+background: white;
+font-size: 22px;
+font-weight: lighter;
+color: gray;
+z-index: 4000;}
+.contra{
+position: absolute;
+top: 13rem;
+left: 2rem;
+width: 20rem;
+height: 8rem;
+background: white;
+font-size: 22px;
+font-weight: lighter;
+color: gray;
+z-index: 4000;}
+.botonenviar{
+position: absolute;
+top: 23rem;
+left: 3rem;
+width: 20rem;
+height: 5rem;
+background: #072E35;
+border-top-left-radius: 2rem;
+border-top-right-radius: 2rem;
+border-bottom-right-radius: 2rem;
+border-bottom-left-radius: 2rem;
+font-size: 2rem;
+color: white;
+z-index: 4000;}
+.botonenviar2{position: absolute;
+top: 24rem;
+left: 3rem;
+width: 20rem;
+height: 5rem;
+background: #072E35;
+border-top-left-radius: 2rem;
+border-top-right-radius: 2rem;
+border-bottom-right-radius: 2rem;
+border-bottom-left-radius: 2rem;
+font-size: 2rem;
+color: white;
+z-index: 4000;}
+.nombre2{
+position: absolute;
+top: 3rem;
+left: 2rem;
+width: 25rem;
+height: 4rem;
+background: white;
+font-size: 22px;
+font-weight: lighter;
+color: gray;
+z-index: 4000;}
+.contra2{position: absolute;
+top: 8rem;
+left: 2rem;
+width: 25rem;
+height: 4rem;
+background: white;
+font-size: 22px;
+font-weight: lighter;
+color: gray;
+z-index: 4000;}
+.opcion{position: absolute;
+top: 13rem;
+left: 2rem;
+width: 25rem;
+height: 4rem;
+background: white;
+font-size: 22px;
+font-weight: lighter;
+color: gray;
+z-index: 4000;}
+.correo2{position: absolute;
+top: 18rem;
+left: 2rem;
+width: 25rem;
+height: 4rem;
+background: white;
+font-size: 22px;
+font-weight: lighter;
+color: gray;
+z-index: 4000;}
+.x{position: absolute;
+top: 0.8rem;
+left: 38rem;
+font-size: 3.5rem;
+font-family: 'Roboto', sans-serif;
+z-index: 4000;
+}
+}
+
+
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+    <div class="opaco" id="fonf"></div>
+
+<header class="header">
+
+    <a href="#" class="logo">
+        <img src="images/logo.png" alt="">
+    </a>
+<p class="pp1"><b>P R I E S T L E Y</b></p>
+
+    <nav class="navbar">
+        <a href="#home"><b>Home</a>
+        <a href="#SN">Sobre nosotros</a>
+        <a href="#Propositos">Propósitos</a>
+        <a href="#Escríbenos">Escríbenos</a>
+    </nav>
+
+</header>
+
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>BIENVENIDO A<BR>PRIESTLEY</h3>
+        <p>Aqui podrás encontar vj,bjbhvh</p>
+        <a onclick="registro()" class="btn">Inicio o Registro</a>
+       
+    </div>
+
+</section>
+
+<section class="about" id="SN">
+
+    <h1 class="heading"> <span>SOBRE</span> NOSOTROS </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/4.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>¿ QUIENES SOMOS?</h3>
+            <p>Somos tlsknkjsklklnk</p>
+            <p>Realizamos está pagina porque queremos kbbjknsjknjkn</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="menu" id="Propositos">
+
+    <h1 class="heading"> Nuestros <span>Propósitos</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/remp.png" alt="">
+            <h3>MISIÓN</h3>
+            <div class="price">akkmakm</div>
+        </div>
+
+        <div class="box">
+            <img src="images/remp.png" alt="">
+            <h3>VISIÓN</h3>
+            <div class="price">ahbjhbaj</div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="contact" id="Escríbenos">
+
+    <h1 class="heading"> <span>COMPARTE</span> TU OPINIÓN </h1>
+
+    <div class="row">
+
+        <form action="">
+            <h3>ESCRÍBENOS LO QUE OPINAS</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="Nombre o usuario">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="Correo electronico">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="text" placeholder="Opinión">
+            </div>
+            <input type="submit"  class="btn" value="Enviar" >
+        </form>
+
+    </div>
+
+</section>
+
+<section class="footer">
+
+    <div class="links">
+        <a href="#home">home</a>
+        <a href="#SN">Sobre nosotros</a>
+        <a href="#Propositos">Propósitos</a>
+        <a href="#Escríbenos">Escríbenos</a>
+    </div>
+
+    <div class="credit">Creado Por:  Anabell, Melissa, Salome, Juan Pablo Z</div>
+
+</section>
+<div id="f" class="fondo">
+    <div class="x" id="cerrar" onclick="cerrado()">X</div>
+     <div class="bg2"></div>
+    <input type="button" value="INGRESO" class="sigue" onclick="hola1()" id="ingres">
+<input type="button" value="REGISTRO" class="primera" onclick="hola2()" id="regis">
+<div class="a" id="ver"><div class="b" id="info1"></div>
+<div class="c" id="info2">
+    <form action="inicio.php" method="POST"><p class="lre">INGRESA</p>
+        <input type="text" name="usu" class="nombre" required="" placeholder="  Usuario">
+        <input type="password" name="con" class="contra" required="" placeholder="  Contraseña">
+        <input type="submit" name="enviar" id="e1" value="Ingresar" class="botonenviar">
+    </form>
+</div>
+<div class="d" id="info3"><p class="lre">REGISTRATE</p>
+    <form action="index.php" method="POST">
+    <input type="text" name="usu" class="nombre2" placeholder="  Usuario">
+    <input type="password" name="con" class="contra2" placeholder="  Contraseña">
+    <select name="gen" id="fo" class="opcion">
+        <option>  Genero</option>
+        <option value="Femenino">  Femenino</option>
+        <option value="Masculino">  Masculino</option>
+        <option value="No binario">  No binario</option>
+    </select>
+    <input type="text" name="cor" class="correo2" placeholder="  Correo">
+    <input type="submit" name="enviar" id="e2" value="Registrar" class="botonenviar2">
+    </form>
+</div>
+    
+    <script>
+        function registro(){
+        f.style.display="block";
+        fonf.style.display="block";
+        ingres.style.display="block";
+        ingres.style.background="#0E6260";
+        regis.style.display="block";
+        regis.style.background="#2BCFCB";
+        ver.style.display="block";
+        ver.style.background="#0E6260";
+        info1.style.display="none";
+        info2.style.display="block";
+        info3.style.display="none";
+        e1.style.display="block";
+        e2.style.display="none";
+        ua.style.display="block";
+        cerrar.style.display="block";
+        }
+        function hola1(){
+        f.style.display="block";
+        fonf.style.display="block";
+        ingres.style.display="block";
+        ingres.style.background="#0E6260";
+        regis.style.display="block";
+        regis.style.background="#2BCFCB";
+        ver.style.display="block";
+        ver.style.background="#0E6260";
+        info1.style.display="none";
+        info2.style.display="block";
+        info3.style.display="none";
+        e1.style.display="block";
+        e2.style.display="none";
+        ua.style.display="block";
+        cerrar.style.display="block";
+    }
+    function hola2(){
+        f.style.display="block";
+        fonf.style.display="block"
+        ingres.style.display="block";
+        ingres.style.background="#2BCFCB";
+        regis.style.display="block";
+        regis.style.background="#0E6260";
+        ver.style.display="block";
+        ver.style.background="#0E6260";
+        info1.style.display="none";
+        info2.style.display="none";
+        info3.style.display="block";
+        e1.style.display="none";
+        e2.style.display="block";
+        ua.style.display="block";
+        cerrar.style.display="block";
+    }
+    function cerrado(){
+        f.style.display="none";
+        fonf.style.display="none";
+        ingres.style.display="none";
+        regis.style.display="none";
+        ver.style.display="none";
+        info1.style.display="none";
+        info2.style.display="none";
+        info3.style.display="none";
+        e1.style.display="none";
+        e2.style.display="none";
+        ua.style.display="none";
+        cerrar.style.display="none";
+        }
+    </script></div>
+</body>
+</html>
